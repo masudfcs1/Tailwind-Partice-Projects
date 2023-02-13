@@ -1,1 +1,1 @@
-# Tailwind-Partice-Projects
+# Tailwind-Partice & Projects
