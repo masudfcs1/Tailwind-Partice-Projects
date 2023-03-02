@@ -56,15 +56,15 @@
       </nav>
     </div>
 
+        <!-- Hero Section -->
+    <div class="container mx-auto flex flex-col md:flex-row mt-10 ">
 
-    <div class="container mx-auto flex mt-10 ">
-
-      <div class="w-1/2" >
+      <div class="md:w-1/2" >
         <img class="mt-5"  src="./../imgs/progrmming.png" alt="programming img" />
        <!-- <img class="w-80 h-80 mt-20 rounded-xl shadow-orange-400 " src="https://api.lorem.space/image/burger?w=150&h=150" alt=""> -->
       </div>
 
-      <div class="w-1/2 text-center  text-xl mt-36 capitalize font-light font-sans ">
+      <div class="md:w-1/2 text-center text-xl mt-5 capitalize font-light font-sans ">
         <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam totam quod obcaecati sunt fugiat dolores. Error repudiandae minus qui
         </p>
 
@@ -74,27 +74,27 @@
 
          <!-- Main section -->
 
-        <div class="container mx-auto mt-16 flex">
+        <div class="container mx-auto flex flex-col md:flex-row mt-16 flex">
 
           <div class="items-center ml-10 " >
-            <h1 class="text-2xl text-center hover:text-green-600" >Web Development</h1>
-            <img class="w-1/3 w-56 h-52 justify-centers items-center " src="./../imgs/web-develop.png" alt="">
-            <p class="font-mono">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure praesentium accusantium dolores corrupti</p>
+            <h1 class="text-2xl text-center mt-5 mb-5  hover:text-green-600" >Web Development</h1>
+            <img class="md:w-1/3 w-56 h-52 justify-centers items-center " src="./../imgs/web-develop.png" alt="">
+            <p class="font-mono ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure praesentium accusantium dolores corrupti</p>
             </p>
           </div>
 
 
           <div class="items-center ml-10 " >
-            <h1 class="text-2xl justify-centers hover:text-green-600" >Mobile Development</h1>
-            <img class="w-1/3 w-56 h-52 text-center items-center " src="./../imgs/Mobile development.png" alt="">
+            <h1 class="text-2xl text-center mt-5 mb-5 justify-centers hover:text-green-600" >Mobile Development</h1>
+            <img class="md:w-1/3 w-56 h-52 text-center items-center " src="./../imgs/Mobile development.png" alt="">
             <p class="font-mono">Lorem, ipsum dolor sit amet consecteturs adipisicing elit. Iure praesentium accusantium dolores corrupti </p>
             </p>
           </div>
 
 
           <div class="items-center  " >
-            <h1 class="text-2xl justify-centers hover:text-green-600" >Cloud AWS</h1>
-            <img class="w-1/3 w-56 h-52 text-center items-center " src="./../imgs/Cloud hosting.png" alt="">
+            <h1 class="text-2xl justify-centers text-center mt-5 mb-5 hover:text-green-600" >Cloud AWS</h1>
+            <img class="md:w-1/3 w-56 h-52 text-center items-center " src="./../imgs/Cloud hosting.png" alt="">
             <p class="font-mono">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure praesentium accusantium dolores co jus</p>
             </p>
           </div>
@@ -104,7 +104,7 @@
 
         <!-- Pricing -->
         
-        <div class="container mx-auto mt-6 mx-32  ">
+        <div class="container mx-auto mt-6   ">
 
           <div class="text-center mt-16 ">
              <h1 class="text-4xl font-serif capitalize text hover:text-green-600 ">pricing</h1>
@@ -112,7 +112,7 @@
           </div>
 
 
-          <div class=" grid grid-cols-3 mt-14 grap-4 mx-24 " >
+          <div class=" grid md:grid-cols-3 grid-cols-1 mt-14 grap-4 mx-14 " >
             <div class="bg-gray-200 w-80 rounded-3xl pt-8 hover:shadow-2xl h-96 mt-9 text-center " >
                
               <h1 class="text-5xl text-blue-900 font-bold">$199</h1>
@@ -321,7 +321,7 @@
                <h2 class="text-5xl text-blue-600" >Featured Stories</h2>
           </div>
 
-          <div class="grid grid-cols-3 mx-24 ">
+          <div class="grid md:grid-cols-3 grid-cols-1 mx-14 ">
             <div class="bg-white-100 w-80 rounded-3xl pt-8 hover:shadow-2xl h-96 mt-12 text-center " >
               <img  class="w-48 "  src="../imgs/Mindfulness.png" >
               <div class="mt-5 mb-5">
@@ -357,13 +357,63 @@
 
 
         <footer class="bg-gray-300 mt-12 h-96">
-          <div class="container mx-auto">
+          <div class="container mx-auto flex flex-1 pt-28">
                 <!-- 25% -->
-                
+                <div class="md:w-1/4 pt-12">
+                  <p class="text-gray-600  text-xl" >Lorens Code</p>
+                </div>
 
                 <!-- 50% -->
+                <div class="md:w-1/2 flex flex-col md:flex-row md:justify-end">
+                  <div class="pr-24" >
+                     <h3 class="font-bold text-gray-600 text-lg">Link</h3>
+                     <ul class="text-gray-600 space-y-6 mt-4">
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">About</a></li>
+                     </ul>
+                  </div>
+
+                  <div class="pr-24" >
+                    <h3 class="font-bold text-gray-600 text-lg">Link</h3>
+                    <ul class="text-gray-600 space-y-6 mt-4">
+                     <li><a href="#">Products</a></li>
+                     <li><a href="#">About</a></li>
+                    </ul>
+                 </div>
+
+                 <div class="pr-24" >
+                  <h3 class="font-bold text-gray-600 text-lg">Link</h3>
+                  <ul class="text-gray-600 space-y-6 mt-4">
+                   <li><a href="#">Products</a></li>
+                   <li><a href="#">About</a></li>
+                  </ul>
+               </div>
+
+                </div>
 
                 <!-- 25% -->
+
+                <div class="w-3/25 flex space-x-9 justify-end ">
+                     <button><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg></button>
+                     <button><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <rect x="4" y="4" width="16" height="16" rx="4" />
+                      <circle cx="12" cy="12" r="3" />
+                      <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg></button>
+                     <button><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+                    </svg></button>
+                     <button><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg></button>
+                </div>
+
           </div>
         </footer>
 
