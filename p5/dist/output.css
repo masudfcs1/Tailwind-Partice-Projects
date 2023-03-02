@@ -690,6 +690,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .flex {
   display: flex;
 }
