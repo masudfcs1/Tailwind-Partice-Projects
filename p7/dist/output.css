@@ -758,6 +758,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:ml-16 {
+    margin-left: 4rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -772,6 +776,10 @@ video {
 
   .md\:w-40 {
     width: 10rem;
+  }
+
+  .md\:w-3\/12 {
+    width: 25%;
   }
 
   .md\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
